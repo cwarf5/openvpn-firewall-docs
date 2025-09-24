@@ -171,7 +171,8 @@ Successful pings confirmed **end‑to‑end** connectivity through the tunnel fr
   ![Firewall Rules - WAN](firewallrules-WAN.png)
   ![Firewall Rules - LAN](firewallrules-LAN.png)
   ![Firewall Rules - OpenVPN](firewallrules-ovpn.png)
-- **WAN VM `ip a`**:
+- **WAN VM IP A**
+  
   ![WAN ip a](WAN-ipa.png)
 
 ---
