@@ -160,51 +160,19 @@ Successful pings confirmed **end‑to‑end** connectivity through the tunnel fr
 
 ---
 
-## Commands Used
-```bash
-# On WAN client: run OpenVPN with exported profile
-sudo openvpn --config ./exported-profile.ovpn
-
-# Secure copy of client profile (example)
-scp user@pfsense:/var/etc/openvpn/client-exports/exported-profile.ovpn ./
-
-# Basic connectivity checks
-ip a
-ip route
-ping 8.8.8.8
-ping 192.168.1.1
-ping 192.168.1.101
-```
-
----
-
 ## Artifacts & Screenshots
-Place screenshots under `docs/screenshots/` and reference them below:
-
-- **CA and CRL**: `ca.png`
-- **OpenVPN Server**: `docs/screenshots/openvpn-server.png`
-- **Firewall Rules**: `docs/screenshots/firewall-rules.png`
-- **WAN VM `ip a` (connected)**: `docs/screenshots/wan-ip-a.png`
-- **Ping WAN→LAN (success)**: `docs/screenshots/ping-wan-to-lan.png`
-
-![CA](ca.png)
-![CRL](crl.png)
-![OpenVPN Server](openvpn.png)
-![Firewall Rules - WAN](firewallrules-WAN.png)
-![Firewall Rules - LAN](firewallrules-LAN.png)
-![Firewall Rules - OpenVPN](firewallrules-ovpn.png)
-![WAN ip a](WAN-ipa.png)
-
-Example Markdown includes:
-```markdown
-![CA](ca.png)
-![CRL](crl.png)
-![OpenVPN Server](openvpn.png)
-![Firewall Rules - WAN](firewallrules-WAN.png)
-![Firewall Rules - LAN](firewallrules-LAN.png)
-![Firewall Rules - OpenVPN](firewallrules-ovpn.png)
-![WAN ip a](WAN-ipa.png)
-```
+- **CA**
+  ![CA](ca.png)
+- **CRL**
+  ![CRL](crl.png)
+- **OpenVPN Server**
+  ![OpenVPN Server](openvpn.png)
+- **Firewall Rules**
+  ![Firewall Rules - WAN](firewallrules-WAN.png)
+  ![Firewall Rules - LAN](firewallrules-LAN.png)
+  ![Firewall Rules - OpenVPN](firewallrules-ovpn.png)
+- **WAN VM `ip a`**:
+  ![WAN ip a](WAN-ipa.png)
 
 ---
 
