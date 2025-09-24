@@ -189,11 +189,13 @@ Place screenshots under `docs/screenshots/` and reference them below:
 
 Example Markdown includes:
 ```markdown
-![CA and CRL](docs/screenshots/ca-crl.png)
-![OpenVPN Server](docs/screenshots/openvpn-server.png)
-![Firewall Rules](docs/screenshots/firewall-rules.png)
-![WAN ip a](docs/screenshots/wan-ip-a.png)
-![Ping success](docs/screenshots/ping-wan-to-lan.png)
+![CA](ca.png)
+![CRL](crl.png)
+![OpenVPN Server](openvpn.png)
+![Firewall Rules - WAN](firewallrules-WAN.png)
+![Firewall Rules - LAN](firewallrules-LAN.png)
+![Firewall Rules - OpenVPN](firewallrules-ovpn.png)
+![WAN ip a](WAN-ipa.png)
 ```
 
 ---
